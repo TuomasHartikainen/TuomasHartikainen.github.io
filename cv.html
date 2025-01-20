@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Näyttötyö</title>
-    <link rel="stylesheet" href="nayttotyo.css">
+    <title>CV - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
-    <ul>
-        <li class="navbar-right"><a class="border-left" href="cveng.html">English</a></li>
-        <li class="navbar-right"><a href="contact.html">Yhteydenotto</a></li>
-        <li class="navbar-right"><a href="project.html">Työt</a></li>
-        <li class="navbar-right"><a href="cv.html">CV</a></li>
-        <li class="navbar-right"><a href="index.html">Etusivu</a></li>
-      </ul><br>
-<h1><strong class="strong-h1">CV</strong></h1><br><br><br>
-<h2 class="photo-req"><br><br><br>Kuva</h2>
-<h2 class="h2-right"><strong>Tuomas Hartikainen</strong></h2>
-<h3 class="h3-right">Ammattikoulun opiskelija</h3>
-<p class="p-right">OSAO kaukovainion tekniikan yksikön opiskelija. Opiskelen ohjelmistokehittäjäksi. Aloittanut opiskelun 2023. Harrastan kitaran ja pianon soittoa. Minulla on suurta kiinnostusta tietokoneista ja ohjelmistokehityksestä.</p>
-<h2 class="h2-cvk">Koulutus</h2>
-<h3>Ammattikoulu 2023-202x</h3>
-<p>OSAO Ammattikoulu – Tieto- ja viestintätekniikan ammattitutkinto (ohjelmistokehittäjä) 2023-202x</p>
-<h3>Perusaste 2014-2023</h3>
-<p>Kaukovainion peruskoulu. Valmistusvuosi 2023</p>
-<h2 class="h2-cv">Työkokemus</h2>
-<h3>Kesätyöntekijä 2023 Kesä. Sale Höyhtyä Oulu. Latokartanontie 1, 90150 Oulu</h3>
-<p>Työtehtäviin kuului tavaroitten hyllyttäminen ja asiakkaiden auttaminen. Työjakso kesti kaksi viikkoa. Työpäivä kesti kuusi tuntia, 30 minuutin tauolla ja työpäiviä viikossa oli viisi.</p>
-<h3>TET-Jakso 2022 Syksy. Northen Apartaments Oy. Rautatienkatu 17 90100 Oulu</h3>
-<p>Työtehtäviin kuului siivoaminen, imuroiminen, pyykkien pesu, astioiden pesu, lattioiden pesu ja petien laittaminen. TET-jakso kesti 5 päivää. Työpäivä kesti kuusi tuntia.</p>
-<h2 class="h2-cv">Kielitaito</h2>
-<h3>Venäjä - Äidinkieli</h3>
-<h3>Suomi - Äidinkielen tasolla</h3>
-<h3>Englanti - Kiitettävä</h3>
-<h3>Ruotsi - Kohtalainen</h3>
-<h2 class="h2-cv">Erityistä</h2>
-<h3>Hygieniapassi</h3>
-<h3>Kuvankäsittelytaitoa Photoshopissa</h3>
-<h3>Virtuaalikoneiden peruskäyttö</h3>
-<h3>Ohjelmointikielet (C#, HTML/CSS, JavaScript, SQL)</h3>
-<h3>Microsoft office-työkalujen käyttö (Word, Excel, Powerpoint)</h3>
-<h2 class="h2-cv">Suosittelijat</h2>
-<h3>Saatavilla pyynnöstä</h3><br>
+<div class="background">
+    <nav>
+        <ul class="navbar">
+            <li class="navbar-right"><a href="index.html">Etusivu</a></li>
+                <li class="navbar-right"><a href="cv.html">CV</a></li>
+                <li class="navbar-right"><a href="project.html">Työt</a></li>
+                <li class="navbar-right"><a href="contact.html">Yhteydenotto</a></li>
+                <li class="navbar-right"><a class="border-left" href="cveng.html">English</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1><strong class="strong-h1">CV</strong></h1>
+    </header>
+        <div class="photo-container">
+            <img src="images/profile-picture.jpg" alt="Tuomas Hartikainen" class="photo-req">
+        </div>
+        <section>
+            <h2 class="h2-right">Tuomas Hartikainen</h2>
+            <h3 class="h3-right">Ammattikoulun opiskelija</h3>
+            <p class="p-right">OSAO kaukovainion tekniikan yksikön opiskelija. Opiskelen ohjelmistokehittäjäksi. Aloittanut opiskelun 2023. Harrastan kitaran ja pianon soittoa. Minulla on suurta kiinnostusta tietokoneista ja ohjelmistokehityksestä.</p><br><br>
+        <h2 class="h2-cv">Koulutus</h2>
+        <h3>Ammattikoulu 2023-202x</h3>
+        <p>OSAO Ammattikoulu - Tieto- ja viestintätekniikan ammattitutkinto (ohjelmistokehittäjä) 2023-202x</p>
+        <h3>Perusaste 2014-2023</h3>
+        <p>Kaukovainion peruskoulu. Valmistusvuosi 2023</p><br><br>
+        <h2 class="h2-cv">Työkokemus</h2>
+        <h3>Kesätyöntekijä 2023 Kesä</h3>
+        <p>Sale Höyhtyä Oulu. Latokartanontie 1, 90150 Oulu<br>
+        Työtehtäviin kuului tavaroitten hyllyttäminen ja asiakkaiden auttaminen. Työjakso kesti kaksi viikkoa. Työpäivä kesti kuusi tuntia, 30 minuutin tauolla ja työpäiviä viikossa oli viisi.</p>
+        <h3>TET-Jakso 2022 Syksy</h3>
+        <p>Northen Apartaments Oy. Rautatienkatu 17 90100 Oulu<br>
+        Työtehtäviin kuului siivoaminen, imuroiminen, pyykkien pesu, astioiden pesu, lattioiden pesu ja petien laittaminen. TET-jakso kesti 5 päivää. Työpäivä kesti kuusi tuntia.</p><br><br>
+        <h2 class="h2-cv">Kielitaito</h2>
+        <ul>
+            <li>Venäjä - Äidinkieli</li>
+            <li>Suomi - Äidinkielen tasolla</li>
+            <li>Englanti - Kiitettävä</li>
+            <li>Ruotsi - Kohtalainen</li>
+        </ul><br><br>
+        <h2 class="h2-cv">Erityistä</h2>
+        <ul>
+            <li>Hygieniapassi</li>
+            <li>Kuvankäsittelytaitoa Photoshopissa</li>
+            <li>Virtuaalikoneiden peruskäyttö</li>
+            <li>Ohjelmointikielet (C#, HTML/CSS, JavaScript, SQL)</li>
+            <li>Microsoft Office-työkalujen käyttö (Word, Excel, PowerPoint)</li>
+        </ul><br><br>
+        <h2 class="h2-cv">Suosittelijat</h2>
+        <p>Saatavilla pyynnöstä</p>
+    </section>
 </div>
 <footer>
-    <p>© 2024 Kaikki oikeudet pidetään. Tuomas Hartikainen</p>
+    <p>© 2025 Kaikki oikeudet pidetään. Tuomas Hartikainen</p>
 </footer>
 </body>
 </html>

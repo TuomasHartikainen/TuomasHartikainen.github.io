@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Abel;
+    src: url(Abel-Regular.ttf);
+}
+
+body {
+    font-family: Abel, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.background {
+    background-image: url(images/Whitebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-right {
+    margin: 0;
+}
+
+.navbar-right a {
+    display: block;
+    padding: 14px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-right a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.border-left {
+    border-left: 1px solid #ddd;
+}
+
+header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.strong-h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.div-about {
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.h2-about {
+    font-size: 3rem;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.photo-container {
+    flex: 1;
+    text-align: center;
+}
+
+.photo-req {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.about {
+    flex: 2;
+    padding: 20px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+.h1-contact {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #444;
+    text-align: left;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Adjust spacing as needed */
+}
+
+.contact-info {
+    font-size: 1.2em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.contact-icon,
+.contact-icon2 {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px; /* Keeps the form from being too wide */
+    margin: 0 auto; /* Centers the form */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}

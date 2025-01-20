@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yhteydenotto - Näyttötyö</title>
-    <link rel="stylesheet" href="nayttotyo.css">
+    <title>Yhteydenotto - Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
-    <ul>
-        <li class="navbar-right"><a class="border-left" href="contacteng.html">English</a></li>
-        <li class="navbar-right"><a href="contact.html">Yhteydenotto</a></li>
-        <li class="navbar-right"><a href="project.html">Työt</a></li>
-        <li class="navbar-right"><a href="cv.html">CV</a></li>
-        <li class="navbar-right"><a href="index.html">Etusivu</a></li>
-      </ul><br>
-<h1><strong class="strong-h1">Yhteydenotto</strong></h1><br><br><br><br><br>
-<h1 class="h1-contact">Yhteystiedot</h1>
-<p class="contact-info">mikkohartikainem@gmail.com</p>
-<p class="contact-info">+358 044 981 2642</p>
-<img class="contact-icon" src="PhoneIcon.png" alt="Icon of a phone" width="30" height="30">
-<img class="contact-icon2" src="EmailIcon.png" alt="Icon of a mail" width="30" height="30">
-<h1 class="h1-contact">Ota yhteyttä</h1>
-<form class="contact-form">
-    <label for="name">Nimi:</label><br>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="email">Sähköposti:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-    <p class="txtarea">Viesti:</p>
-    <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
-    <input type="submit" value="Lähetä">
-</form>
-</div>
-<footer>
-    <p>© 2024 Kaikki oikeudet pidetään. Tuomas Hartikainen</p>
-</footer>
+    <div class="background">
+        <nav>
+            <ul class="navbar">
+                <li class="navbar-right"><a href="index.html">Etusivu</a></li>
+                    <li class="navbar-right"><a href="cv.html">CV</a></li>
+                    <li class="navbar-right"><a href="project.html">Työt</a></li>
+                    <li class="navbar-right"><a href="contact.html">Yhteydenotto</a></li>
+                    <li class="navbar-right"><a class="border-left" href="contacteng.html">English</a></li>
+            </ul>
+        </nav>
+
+        <section class="contact-section">
+            <h1 class="h1-contact">Yhteystiedot</h1>
+            <p class="contact-info">
+                <img class="contact-icon" src="images/PhoneIcon.png" alt="Icon of a phone" width="30" height="30">
+                +358 044 981 2642
+            </p>
+            <p class="contact-info">
+                <img class="contact-icon2" src="images/EmailIcon.png" alt="Icon of a mail" width="30" height="30">
+                mikkohartikainem@gmail.com
+            </p>
+
+            <h1 class="h1-contact">Ota yhteyttä</h1>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Nimi:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Sähköposti:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="msg">Viesti:</label><br>
+                <textarea id="msg" name="msg" rows="5" required></textarea><br>
+                <input type="submit" value="Lähetä">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Tuomas Hartikainen</p>
+    </footer>
 </body>
 </html>

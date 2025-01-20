@@ -3,37 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Project</title>
-    <link rel="stylesheet" href="nayttotyo.css">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
-    <ul>
-        <li class="navbar-right"><a class="border-left" href="contact.html">Suomi</a></li>
-        <li class="navbar-right"><a href="contacteng.html">Contact</a></li>
-        <li class="navbar-right"><a href="projecteng.html">Works</a></li>
-        <li class="navbar-right"><a href="cveng.html">CV</a></li>
-        <li class="navbar-right"><a href="indexeng.html">Home</a></li>
-      </ul><br>
-<h1><strong class="strong-h1">Contact</strong></h1><br><br><br><br><br>
-<h1 class="h1-contact">Contact Information</h1>
-<p class="contact-info">mikkohartikainem@gmail.com</p>
-<p class="contact-info">+358 044 981 2642 </p>
-<img class="contact-icon" src="PhoneIcon.png" alt="Icon of a phone" width="30" height="30">
-<img class="contact-icon2" src="EmailIcon.png" alt="Icon of a mail" width="30" height="30">
-<h1 class="h1-contact">Contact me</h1>
-<form class="contact-form">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-    <p class="txtarea">Message:</p>
-    <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
-    <input type="submit" value="Submit">
-</form>
-</div>
-<footer>
-    <p>© 2024 All rights reserved. Tuomas Hartikainen</p>
-</footer>
+    <div class="background">
+        <nav>
+            <ul class="navbar">
+                <li class="navbar-right"><a href="indexeng.html">Home</a></li>
+                    <li class="navbar-right"><a href="cveng.html">CV</a></li>
+                    <li class="navbar-right"><a href="projecteng.html">Works</a></li>
+                    <li class="navbar-right"><a href="contacteng.html">Contact</a></li>
+                    <li class="navbar-right"><a class="border-left" href="contact.html">Suomi</a></li>
+            </ul>
+        </nav>
+
+        <section class="contact-section">
+            <h1 class="h1-contact">Contact information</h1>
+            <p class="contact-info">
+                <img class="contact-icon" src="images/PhoneIcon.png" alt="Icon of a phone" width="30" height="30">
+                +358 044 981 2642
+            </p>
+            <p class="contact-info">
+                <img class="contact-icon2" src="images/EmailIcon.png" alt="Icon of a mail" width="30" height="30">
+                mikkohartikainem@gmail.com
+            </p>
+
+            <h1 class="h1-contact">Contact me</h1>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" name="msg" rows="5" required></textarea><br>
+                <input type="submit" value="Lähetä">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Tuomas Hartikainen</p>
+    </footer>
 </body>
 </html>
